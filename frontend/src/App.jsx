@@ -220,7 +220,7 @@ function App() {
   </p>
   <div className="flex justify-center">
     <img
-      src="./src/assets/download.png" // replace with your image path
+      src="./frontend/src/assets/download.png" // replace with your image path
       alt="Confusion Matrix"
       className="w-64 h-64 object-contain rounded-lg shadow-lg"
     />
