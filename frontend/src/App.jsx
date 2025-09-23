@@ -26,7 +26,7 @@ function App() {
     e.preventDefault();
     try {
       const featureArray = Object.values(features).map(Number);
-      const response = await axios.post("http://127.0.0.1:8000/predict", {
+      const response = await axios.post("https://cancer-predictor-indol.vercel.app/predict", {
         features: featureArray,
       });
       setResult(response.data);
