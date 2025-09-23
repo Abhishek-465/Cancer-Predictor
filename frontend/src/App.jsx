@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import confusionMatrix from './assets/download.png';
 
 function App() {
   const [features, setFeatures] = useState({
@@ -220,7 +221,7 @@ function App() {
   </p>
   <div className="flex justify-center">
     <img
-      src="./frontend/src/assets/download.png" // replace with your image path
+      src={confusionMatrix} // replace with your image path
       alt="Confusion Matrix"
       className="w-64 h-64 object-contain rounded-lg shadow-lg"
     />
