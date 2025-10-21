@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-indigo-100 via-white to-pink-100 p-6">
-      <div className="bg-gray-50 shadow-2xl rounded-2xl p-8 w-full max-w-3xl">
+      <div className="bg-gray-50 shadow-2xl rounded-2xl p-8 w-full max-w-3xl lg:mt-[300px]">
         <h1 className="text-xl lg:text-3xl font-extrabold text-center text-indigo-800 mb-6">
           🩺 Cancer Risk Prediction
         </h1>
